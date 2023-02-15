@@ -54,6 +54,7 @@ $rw=mysqli_fetch_array($login2);
 // $ad=mysqli_fetch_array($admin);
 $_SESSION['login_id']=$row['id'];
 $_SESSION['login_type']=$row["type"];
+$_SESSION['login_branch_id']=$rw['branch_id'];
 // $_SESSION['login_branch_id']=$row["branch_id"];
 $user=$row['email'];
 $type=$row['type'];

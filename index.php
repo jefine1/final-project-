@@ -1,3 +1,6 @@
+
+<?php  include('google_translater.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Space Dynamic - SEO HTML5 Template</title>
+    <title>Moovit Logistic Service</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="translate.css">
     <!--
     
 TemplateMo 562 Space Dynamic
@@ -66,7 +70,7 @@ https://templatemo.com/tm-562-space-dynamic
     <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
         <div class="container">
             <div class="row">
-                <div id="google_element" class="col-12">
+                <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
@@ -88,12 +92,7 @@ https://templatemo.com/tm-562-space-dynamic
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
-                        <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
-                        <script>
-                            function loadGoogleTranslate() {
-                                new google.translate.TranslateElement("google_element");
-                            }
-                        </script>
+
                         <!-- ***** Menu End ***** -->
                     </nav>
                 </div>

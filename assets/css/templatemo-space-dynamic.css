@@ -661,6 +661,7 @@ header
 
 .header-area.header-sticky {
     min-height: 80px;
+    z-index: 10000015;
 }
 
 .header-area .nav {
