@@ -55,14 +55,7 @@
        
         </ul>
       </li>
-      <li class="nav-item dropdown">
-        <a href="./main.php?page=reports" class="nav-link nav-reports">
-          <i class="nav-icon fas fa-file"></i>
-          <p>
-            Reports
-          </p>
-        </a>
-      </li>  
+     
        <li class="nav-item dropdown">
         <a href="./main.php?page=track" class="nav-link nav-track">
           <i class="nav-icon fas fa-search"></i>

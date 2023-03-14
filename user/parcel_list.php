@@ -17,37 +17,23 @@
 				</colgroup> -->
 				<thead>
 					<tr>
-						<th class="text-center">#</th>
+						
 						<th>Reference Number</th>
-						<th>Sender Name</th>
 						<th>Recipient Name</th>
 						<th>Status</th>
 						<th>Action</th>
 					</tr>
 				</thead>
 				<tbody>
+					
 					<?php
-					$i = 1;
-					$where = "";
-					if(isset($_GET['s'])){
-						$where = " where status = {$_GET['s']} ";
-					}
-					if($_SESSION['login_type'] != 1 ){
-						if(empty($where))
-							$where = " where ";
-						else
-							$where .= " and ";
-						$where .= " (from_branch_id = {$_SESSION['login_branch_id']} or to_branch_id = {$_SESSION['login_branch_id']}) ";
-					}
-					$qry = $conn->query("SELECT * from parcels $where order by  unix_timestamp(date_created) desc ");
-					while($row= $qry->fetch_assoc()):
-					?>
+					$sql7 = "SELECT * FROM parcels where sender_name = 'jefine'";
+					$result = mysqli_query($conn, $sql7);
+					while ($row = mysqli_fetch_assoc($result)) {?>
 					<tr>
-						<td class="text-center"><?php echo $i++ ?></td>
-						<td><b><?php echo ($row['reference_number']) ?></b></td>
-						<td><b><?php echo ucwords($row['sender_name']) ?></b></td>
-						<td><b><?php echo ucwords($row['recipient_name']) ?></b></td>
-						<td class="text-center">
+					<td><?php echo  $row["reference_number"] ?></td>
+					<td><?php echo  $row["recipient_name"] ?> </td>
+					<td class="text-center">
 							<?php 
 							switch ($row['status']) {
 								case '1':
@@ -86,11 +72,9 @@
 
 							?>
 						</td>
-						<td class="text-center">
+					<td class="text-center">
 		                    <div class="btn-group">
-		                    	<button type="button" class="btn btn-info btn-flat view_parcel" data-id="<?php echo $row['id'] ?>">
-		                          <i class="fas fa-eye"></i>
-		                        </button>
+		                    	
 		                        <a href="main.php?page=edit_parcel&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat ">
 		                          <i class="fas fa-edit"></i>
 		                        </a>
@@ -99,8 +83,9 @@
 		                        </button>
 	                      </div>
 						</td>
-					</tr>	
-				<?php endwhile; ?>
+					</tr>
+					<?php }?>
+					
 				</tbody>
 			</table>
 		</div>
