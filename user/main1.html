@@ -1,6 +1,3 @@
-
-<?php  include('google_translater.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,8 +9,8 @@
     <meta name="author" content="">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="speech-recognition/style.css">     
-    <title>Moovit Logistic Service</title>
+
+    <title>Space Dynamic - SEO HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +20,6 @@
     <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="translate.css">
     <!--
     
 TemplateMo 562 Space Dynamic
@@ -34,7 +30,7 @@ https://templatemo.com/tm-562-space-dynamic
     <script type="text/javascript">
         (function(d, m) {
             var kommunicateSettings = {
-                "appId": "181b9098541c564c2c65d7951bbd520dd",
+                "appId": "215aa3456ab8a8818aeff1f5e68b6a3f8",
                 "popupWidget": true,
                 "automaticChatOpenOnNavigation": true
             };
@@ -53,7 +49,7 @@ https://templatemo.com/tm-562-space-dynamic
 
 <body>
 
-    ***** Preloader Start *****
+    <!-- ***** Preloader Start ***** -->
     <div id="js-preloader" class="js-preloader">
         <div class="preloader-inner">
             <span class="dot"></span>
@@ -70,7 +66,7 @@ https://templatemo.com/tm-562-space-dynamic
     <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div id="google_element" class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
@@ -92,9 +88,14 @@ https://templatemo.com/tm-562-space-dynamic
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
-
                         <!-- ***** Menu End ***** -->
                     </nav>
+                    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+                    <script>
+                        function loadGoogleTranslate() {
+                            new google.translate.TranslateElement("google_element");
+                        }
+                    </script>
                 </div>
             </div>
         </div>
@@ -109,15 +110,15 @@ https://templatemo.com/tm-562-space-dynamic
                         <div class="col-lg-6 align-self-center">
                             <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                                 <h6>Welcome to Moovit</h6>
-                                <h2>Speedy <em>Delivery</em>  <span> with</span> Moovit!</h2>
-                                <p>Moovit is a fast, reliable courier service that guarantees speedy delivery of your packages and goods.  </p>
+                                <h2>We Make <em>Digital Ideas</em> &amp; <span>SEO</span> Marketing</h2>
+                                <p>Space Dynamic is a professional looking HTML template using a Bootstrap 5 (beta 2). This CSS template is free for you provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_parent">TemplateMo</a>.</p>
                                 <form id="search" action="#" method="GET">
-                                    <!-- <fieldset>
+                                    <fieldset>
                                         <input type="address" name="address" class="email" placeholder="Your parcel id...." autocomplete="on" required>
                                     </fieldset>
                                     <fieldset>
                                         <button type="submit" class="main-button">Check Courier</button>
-                                    </fieldset> -->
+                                    </fieldset>
                                 </form>
                             </div>
                         </div>
@@ -204,9 +205,9 @@ https://templatemo.com/tm-562-space-dynamic
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="section-heading">
-                        <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas</h2>
-                        <p>Space Dynamic HTML5 template is free to use for your website projects. However, you are not permitted to redistribute the template ZIP file on any CSS template collection websites. Please contact us for more information. Thank
-                            you for your kind cooperation.</p>
+                        <h2>Moovit in KL, <em>India</em> &amp; <span>Project</span> Ideas</h2>
+                        <p> reliable and fast. I've used them for numerous shipments, and they have always been on time and my goods have arrived in perfect condition. I highly recommend Moovit for all your shipping needs.
+                        </p>
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
@@ -232,7 +233,8 @@ https://templatemo.com/tm-562-space-dynamic
                                 <div class="filled-bar"></div>
                                 <div class="full-bar"></div>
                             </div>
-                        </div>
+                        </div>/895=1'0;
+                        <p->'.</p->
                     </div>
                 </div>
             </div>
@@ -400,7 +402,7 @@ https://templatemo.com/tm-562-space-dynamic
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-                    <form id="contact" action="feedback.php" method="post">
+                    <form id="contact" action="" method="post">
                         <div class="row">
                             <div class="col-lg-6">
                                 <fieldset>
@@ -425,8 +427,6 @@ https://templatemo.com/tm-562-space-dynamic
                             <div class="col-lg-12">
                                 <fieldset>
                                     <button type="submit" id="form-submit" class="main-button ">Send Message</button>
-                                    <button type="submit" style="float:right;margin-top :-20px;margin-right:10px;"><i class="ri-search-2-line"></i></button>
-                                        <button type="button" id="toggle">start speaking</button>
                                 </fieldset>
                             </div>
                         </div>
@@ -443,9 +443,9 @@ https://templatemo.com/tm-562-space-dynamic
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <p>
+                    <p>© Copyright 2021 Space Dynamic Co. All Rights Reserved.
 
-                        <br> <a rel="nofollow" href=""></a></p>
+                        <br>Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
                 </div>
             </div>
         </div>
@@ -457,8 +457,7 @@ https://templatemo.com/tm-562-space-dynamic
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/templatemo-custom.js"></script>
-    <script src="speech-recognition/script.js"></script>
-    
+
 </body>
 
 </html>

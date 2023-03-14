@@ -22,7 +22,7 @@
    
     
       <li class="nav-item">
-        <a href="#" class="nav-link nav-edit_parcel">
+        <a href="main.php?page=home" class="nav-link nav-edit_parcel">
           <i class="nav-icon fas fa-boxes"></i>
           <p>
             Parcels
@@ -31,7 +31,7 @@
         </a>
         <ul class="nav nav-treeview">
           <li class="nav-item">
-            <a href="./main.php?page=new_parcel" class="nav-link nav-new_parcel tree-item">
+            <a href="main.php?page=new_parcel" class="nav-link nav-new_parcel tree-item">
               <i class="fas fa-angle-right nav-icon"></i>
               <p>Add New</p>
             </a>
@@ -55,6 +55,14 @@
        
         </ul>
       </li>
+      <li class="nav-item dropdown">
+        <a href="./main.php?page=reports" class="nav-link nav-reports">
+          <i class="nav-icon fas fa-file"></i>
+          <p>
+            Reports
+          </p>
+        </a>
+      </li>  
        <li class="nav-item dropdown">
         <a href="./main.php?page=track" class="nav-link nav-track">
           <i class="nav-icon fas fa-search"></i>
@@ -63,15 +71,8 @@
           </p>
         </a>
       </li>  
-       <li class="nav-item dropdown">
-        <a href="./main.php?page=reports" class="nav-link nav-reports">
-          <i class="nav-icon fas fa-file"></i>
-          <p>
-            Reports
-          </p>
-        </a>
-      </li>  
-     
+       
+    
     </ul>
   </nav>
 </div>
