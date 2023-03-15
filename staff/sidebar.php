@@ -76,14 +76,7 @@
               </p>
             </a>
           </li>  
-          <li class="nav-item dropdown">
-            <a href="./main.php?page=chat" class="nav-link nav-chat">
-              <i class="nav-icon fas fa-file"></i>
-              <p>
-                Live Chat
-              </p>
-            </a>
-          </li>  
+          
         </ul>
       </nav>
     </div>

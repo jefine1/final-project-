@@ -18,42 +18,6 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  
- <script type="text/javascript">
- google.load("visualization", "1", {packages:["corechart"]});
- google.setOnLoadCallback(drawChart);
- function drawChart() {
- var data = google.visualization.arrayToDataTable([
-
- ['State','Number'],
- <?php 
-      $query = "SELECT count(state) AS number, state FROM branches GROUP BY state";
-
-       $exec = mysqli_query($conn,$query);
-       while($row = mysqli_fetch_array($exec)){
-
-       echo "['".$row['state']."',".$row['number']."],";
-       }
-       ?> 
- 
- ]);
-
- var options = {
- title: 'Registered Branches',
-  pieHole: 0,
-          pieSliceTextStyle: {
-            color: 'black',
-          },
-          legend: 'none'
- };
- var chart = new google.visualization.PieChart(document.getElementById("columnchart12"));
- chart.draw(data,options);
- }
-  
-    </script>
-   
-
-
 
 </head>
 <body>
@@ -201,9 +165,7 @@
 }
 </style>
 
- <div class="container-fluid">
- <div id="columnchart12" style="width: 100%; height: 500px;"></div>
- </div>
+ 
  
 						</td>
 					</tr>	
