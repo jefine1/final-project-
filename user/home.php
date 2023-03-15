@@ -184,7 +184,7 @@ input:focus,
 }
 </style>
 <body>
-  <br><br><script>
+  <script>
         function toggle_visibility() {
        var e = document.getElementById('feedback-main');
        if(e.style.display == 'block')

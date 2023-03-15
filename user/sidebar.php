@@ -65,8 +65,8 @@
         </a>
       </li>  
       <li class="nav-item dropdown">
-        <a href="./main.php?page=branch_location" class="nav-link nav-track">
-          <i class="nav-icon fas fa-search"></i>
+        <a href="./main.php?page=branch_location" class="nav-link nav-branch">
+          <i class="nav-icon fas fa-building"></i>
           <p>
             Oru Branches
           </p>
