@@ -64,7 +64,14 @@
           </p>
         </a>
       </li>  
-       
+      <li class="nav-item dropdown">
+        <a href="./main.php?page=branch_location" class="nav-link nav-track">
+          <i class="nav-icon fas fa-search"></i>
+          <p>
+            Oru Branches
+          </p>
+        </a>
+      </li>  
     
     </ul>
   </nav>

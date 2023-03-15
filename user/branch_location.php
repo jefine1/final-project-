@@ -1,6 +1,6 @@
 <?php
 include '../db_connect.php';
-session_start();
+
 ?>
 <?php 
 	if(!isset($_SESSION['login_id']))
@@ -301,11 +301,16 @@ if($_SESSION['login_type'] != 1)
 	 <div class="col-12">
           <div class="card">
           	<div class="card-body">
-          		Welcome <?php echo $_SESSION['name'] ?>!
+          		These are branch Locations
           	</div>
           </div>
       </div>
-          
+     
+              Kozhikode:
+          	</div>
+            <iframe src="https://satellites.pro/India_map#11.290100,75.818278,18" width="50%" height="500px"></iframe><br><br>
+                Kannur:<br>
+                <iframe src="https://satellites.pro/India_map#11.310722,75.757995,19" width="50%" height="500px"></iframe><br><br>
 <?php endif; ?>
 <script src="_include/js/feedback.js"></script>
 </head>

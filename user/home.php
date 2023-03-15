@@ -192,7 +192,7 @@ input:focus,
        else
           e.style.display = 'block';
     }
-</script>
+</script><br><br>
 <div id="feedback-main">
   <div id="feedback-div">
     <form action="contact.php" method="post" class="form" id="feedback-form1" name="form1" enctype="multipart/form-data">
