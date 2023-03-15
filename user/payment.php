@@ -29,7 +29,7 @@ $apiKey="rzp_test_uiSQbXtkbUJ4gE";
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
-<form action="" method="POST">
+<form action="pay_act.php?id" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="<?php echo $apiKey; ?>" // Enter the Test API Key ID generated from Dashboard → Settings → API Keys
