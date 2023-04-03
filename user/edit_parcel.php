@@ -10,9 +10,10 @@ foreach($qry as $k => $v){
 	  textarea{
 		resize: none;
 	  }
+	  
 	</style>
 	<div class="col-lg-12">
-		<div class="card card-outline card-primary">
+		<div class="card card-outline ">
 			<div class="card-body">
 				<form action="" id="manage-parcel">
 			<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
@@ -136,7 +137,7 @@ foreach($qry as $k => $v){
 		  </div>
 		  <div class="card-footer border-top border-info">
 			  <div class="d-flex w-100 justify-content-center align-items-center">
-				  <button class="btn btn-flat  bg-gradient-primary mx-2" form="manage-parcel">Save</button>
+				  <button style="background-color: orangered; color:aliceblue;"  class="btn btn-flat   mx-2" form="manage-parcel">Save</button>
 				  <a class="btn btn-flat bg-gradient-secondary mx-2" href="./main.php?page=parcel_list">Cancel</a>
 			  </div>
 		  </div>

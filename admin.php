@@ -31,7 +31,7 @@
           </div><!-- /.col -->
 
         </div><!-- /.row -->
-            <hr class="border-primary">
+            <hr style="background-color: black;" class="border">
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->

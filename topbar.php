@@ -1,5 +1,5 @@
 <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-primary navbar-dark ">
+  <nav style="background-color: black;" class="main-header navbar navbar-expand navbar-primary navbar-dark ">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <?php if(isset($_SESSION['login_id'])): ?>

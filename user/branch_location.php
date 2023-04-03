@@ -306,11 +306,11 @@ if($_SESSION['login_type'] != 1)
           </div>
       </div>
      
-              Kozhikode:
+              Kozhikode: <br>Palayam, oppo. old bus stand , Kozhikode
           	</div>
-            <iframe src="https://satellites.pro/India_map#11.290100,75.818278,18" width="50%" height="500px"></iframe><br><br>
-                Kannur:<br>
-                <iframe src="https://satellites.pro/India_map#11.310722,75.757995,19" width="50%" height="500px"></iframe><br><br>
+            <iframe src="https://satellites.pro/India_map#11.249876,75.786726,16" width="50%" height="500px"></iframe><br><br>
+                Kannur:<br>Thotta, Thalasherry road- SH 38 ,Kannur<br>
+                <iframe src="https://satellites.pro/India_map#11.840416,75.420921,19" width="50%" height="500px"></iframe><br><br>
 <?php endif; ?>
 <script src="_include/js/feedback.js"></script>
 </head>

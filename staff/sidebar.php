@@ -1,33 +1,29 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside style="background-color: black; "  class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="dropdown">
-   	<a href="" class="brand-link">
+   	<a style="background-color: black; color:aliceblue;"  href="" class="brand-link">
         
-        <h3 class="text-center p-0 m-0"><b>STAFF</b></h3>
+        <h3 style="background-color: black; color:aliceblue;"  class="text-center p-0 m-0"><b>STAFF</b></h3>
 
 
     </a>
       
     </div>
-    <div class="sidebar pb-4 mb-4">
+    <div style="background-color: black; color:aliceblue;"  class="sidebar pb-4 mb-4">
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column nav-flat" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item dropdown">
-            <a href="./main.php?page=home" class="nav-link nav-home">
+            <a href="./main.php?page=home" class="nav-link ">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
               </p>
             </a>
-          </li> <li class="nav-item">
-          <a href="./main.php?page=user_list" class="nav-link nav-edit_branch">    
-          <i class="nav-icon fas fa-user"></i>
-          <p> User
-              </p> </a> 
+          </li> 
           
           
         
           <li class="nav-item">
-            <a href="#" class="nav-link nav-edit_parcel">
+            <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-boxes"></i>
               <p>
                 Parcels
@@ -36,13 +32,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./main.php?page=new_parcel" class="nav-link nav-new_parcel tree-item">
+                <a href="./main.php?page=new_parcel" class="nav-link  tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./main.php?page=parcel_list" class="nav-link nav-parcel_list nav-sall tree-item">
+                <a href="./main.php?page=parcel_list" class="nav-link  nav-sall tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>List All</p>
                 </a>
@@ -52,7 +48,7 @@
               foreach($status_arr as $k =>$v):
               ?>
               <li class="nav-item">
-                <a href="./main.php?page=parcel_list&s=<?php echo $k ?>" class="nav-link nav-parcel_list_<?php echo $k ?> tree-item">
+                <a href="./main.php?page=parcel_list&s=<?php echo $k ?>" class="nav-link <?php echo $k ?> tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p><?php echo $v ?></p>
                 </a>
@@ -61,7 +57,7 @@
             </ul>
           </li>
            <li class="nav-item dropdown">
-            <a href="./main.php?page=track" class="nav-link nav-track">
+            <a href="./main.php?page=track" class="nav-link ">
               <i class="nav-icon fas fa-search"></i>
               <p>
                 Track Parcel
@@ -69,7 +65,7 @@
             </a>
           </li>  
            <li class="nav-item dropdown">
-            <a href="./main.php?page=reports" class="nav-link nav-reports">
+            <a href="./main.php?page=reports" class="nav-link ">
               <i class="nav-icon fas fa-file"></i>
               <p>
                 Reports

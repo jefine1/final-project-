@@ -149,8 +149,8 @@ https://templatemo.com/tm-562-space-dynamic
                                         <img src="assets/images/service-icon-01.png" alt="reporting">
                                     </div>
                                     <div class="right-text">
-                                        <h4>Data Analysis</h4>
-                                        <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                                        <h4>Door to Door(D2D)</h4>
+                                        <p>Provide service at you door</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,8 +160,8 @@ https://templatemo.com/tm-562-space-dynamic
                                         <img src="assets/images/service-icon-02.png" alt="">
                                     </div>
                                     <div class="right-text">
-                                        <h4>Data Reporting</h4>
-                                        <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                                        <h4>Trust </h4>
+                                        <p>We provide 100% trust worthy workers</p>
                                     </div>
                                 </div>
                             </div>
@@ -171,8 +171,8 @@ https://templatemo.com/tm-562-space-dynamic
                                         <img src="assets/images/service-icon-03.png" alt="">
                                     </div>
                                     <div class="right-text">
-                                        <h4>Web Analytics</h4>
-                                        <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                                        <h4>Fast Delivery</h4>
+                                        <p>Provides You with a fast delivery service</p>
                                     </div>
                                 </div>
                             </div>
@@ -182,8 +182,8 @@ https://templatemo.com/tm-562-space-dynamic
                                         <img src="assets/images/service-icon-04.png" alt="">
                                     </div>
                                     <div class="right-text">
-                                        <h4>SEO Suggestions</h4>
-                                        <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                                        <h4> Support</h4>
+                                        <p>Support provide at office time</p>
                                     </div>
                                 </div>
                             </div>
@@ -204,9 +204,10 @@ https://templatemo.com/tm-562-space-dynamic
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="section-heading">
-                        <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas</h2>
-                        <p>Space Dynamic HTML5 template is free to use for your website projects. However, you are not permitted to redistribute the template ZIP file on any CSS template collection websites. Please contact us for more information. Thank
-                            you for your kind cooperation.</p>
+                        <h2>Speedy <em>Delivery</em> with  <span>Moovit</span>!</h2>
+                        <p>Moovit is a fast, reliable courier service that guarantees speedy delivery of your packages and goods. 
+                         With Moovit, you can rest assured that your parcels will reach their destination quickly and safely.
+                         Whether you need a package delivered locally or shipped across the state, Moovit is the perfect choice for speedy delivery.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
@@ -219,8 +220,8 @@ https://templatemo.com/tm-562-space-dynamic
                         </div>
                         <div class="col-lg-12">
                             <div class="second-bar progress-skill-bar">
-                                <h4>SEO Reports</h4>
-                                <span>88%</span>
+                                <h4>SDC Reports</h4>
+                                <span>88%</span> 
                                 <div class="filled-bar"></div>
                                 <div class="full-bar"></div>
                             </div>
@@ -253,8 +254,8 @@ https://templatemo.com/tm-562-space-dynamic
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                             <div class="hidden-content">
-                                <h4>SEO Analysis</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Support</h4>
+                                <p>Chatbot would answer FAQ</p>
                             </div>
                             <div class="showed-content">
                                 <img src="assets/images/portfolio-image.png" alt="">
@@ -266,8 +267,8 @@ https://templatemo.com/tm-562-space-dynamic
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="hidden-content">
-                                <h4>Website Reporting</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Secure</h4>
+                                <p>Your product will be secure with us.</p>
                             </div>
                             <div class="showed-content">
                                 <img src="assets/images/portfolio-image.png" alt="">
@@ -279,8 +280,8 @@ https://templatemo.com/tm-562-space-dynamic
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="hidden-content">
-                                <h4>Performance Tests</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Fast Delivery</h4>
+                                <p>Deliver couriers within 2 to 3 days</p>
                             </div>
                             <div class="showed-content">
                                 <img src="assets/images/portfolio-image.png" alt="">
@@ -292,8 +293,8 @@ https://templatemo.com/tm-562-space-dynamic
                     <a href="#">
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                             <div class="hidden-content">
-                                <h4>Data Analysis</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <h4>Track</h4>
+                                <p>You can know about ypur product details</p>
                             </div>
                             <div class="showed-content">
                                 <img src="assets/images/portfolio-image.png" alt="">
@@ -327,11 +328,11 @@ https://templatemo.com/tm-562-space-dynamic
                             <div class="inner-content">
                                 <ul>
                                     <li><i class="fa fa-calendar"></i> 24 Mar 2021</li>
-                                    <li><i class="fa fa-users"></i> TemplateMo</li>
-                                    <li><i class="fa fa-folder"></i> Branding</li>
+                                    <li><i class="fa fa-users"></i> courier</li>
+                                    <li><i class="fa fa-folder"></i> Moovit</li>
                                 </ul>
                                 <a href="#">
-                                    <h4>SEO Agency &amp; Digital Marketing</h4>
+                                    <h4>Moovit Courier Service</h4>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur and sed doer ket eismod tempor incididunt ut labore et dolore magna...</p>
                                 <div class="main-blue-button">
@@ -348,7 +349,7 @@ https://templatemo.com/tm-562-space-dynamic
                                 <div class="left-content align-self-center">
                                     <span><i class="fa fa-calendar"></i> 18 Mar 2021</span>
                                     <a href="#">
-                                        <h4>New Websites &amp; Backlinks</h4>
+                                        <h4>Best service</h4>
                                     </a>
                                     <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                                 </div>
@@ -360,7 +361,7 @@ https://templatemo.com/tm-562-space-dynamic
                                 <div class="left-content align-self-center">
                                     <span><i class="fa fa-calendar"></i> 14 Mar 2021</span>
                                     <a href="#">
-                                        <h4>SEO Analysis &amp; Content Ideas</h4>
+                                        <h4>Best worker that can be found in moovit</h4>
                                     </a>
                                     <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                                 </div>
@@ -372,7 +373,7 @@ https://templatemo.com/tm-562-space-dynamic
                                 <div class="left-content align-self-center">
                                     <span><i class="fa fa-calendar"></i> 06 Mar 2021</span>
                                     <a href="#">
-                                        <h4>SEO Tips &amp; Digital Marketing</h4>
+                                        <h4>Best Courier service</h4>
                                     </a>
                                     <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                                 </div>
@@ -392,10 +393,12 @@ https://templatemo.com/tm-562-space-dynamic
             <div class="row">
                 <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
                     <div class="section-heading">
-                        <h2>Feel Free To Send Us a Message About Your Website Needs</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doer ket eismod tempor incididunt ut labore et dolores</p>
+                        <h2>Courier Service with Moovit</h2>
+                        <p>
+                         Book a fast and reliable courier service with Moovit and get your items delivered quickly and securely.
+                          Get a quote now and let us take care of the rest.</p>
                         <div class="phone-info">
-                            <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="#">010-020-0340</a></span></h4>
+                            <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="#">9295960063</a></span></h4>
                         </div>
                     </div>
                 </div>
@@ -422,13 +425,14 @@ https://templatemo.com/tm-562-space-dynamic
                                     <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>
                                 </fieldset>
                             </div>
+                        </div>
                             <div class="col-lg-12">
                                 <fieldset>
                                     <button type="submit" id="form-submit" class="main-button ">Send Message</button>
-                                    <button type="submit" style="float:right;margin-top :-20px;margin-right:10px;"><i class="ri-search-2-line"></i></button>
+                                    <!-- <button type="submit" style="float:right;margin-top :-20px;margin-right:10px;"><i class="ri-search-2-line"></i></button> -->
                                         <button type="button" id="toggle">start speaking</button>
                                 </fieldset>
-                            </div>
+                           
                         </div>
                         <div class="contact-dec">
                             <img src="assets/images/contact-decoration.png" alt="">

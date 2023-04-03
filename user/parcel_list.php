@@ -1,9 +1,9 @@
 <?php include'db_connect.php';?>
 <div class="col-lg-12">
-	<div class="card card-outline card-primary">
+	<div class="card card-outline ">
 		<div class="card-header">
 			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary " href="./main.php?page=new_parcel"><i class="fa fa-plus"></i> Add New</a>
+				<a style="background-color: orangered; color:aliceblue;"  class="btn btn-block btn-sm btn-default btn-flat  " href="./main.php?page=new_parcel"><i class="fa fa-plus"></i> Add New</a>
 			</div>
 		</div>
 		<div class="card-body">
@@ -75,7 +75,7 @@
 					<td class="text-center">
 		                    <div class="btn-group">
 		                    	
-		                        <a href="main.php?page=edit_parcel&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat ">
+		                        <a style="background-color: green;" href="main.php?page=edit_parcel&id=<?php echo $row['id'] ?>" class="btn btn-primary  ">
 		                          <i class="fas fa-edit"></i>
 		                        </a>
 		                        <button type="button" class="btn btn-danger btn-flat delete_parcel" data-id="<?php echo $row['id'] ?>">

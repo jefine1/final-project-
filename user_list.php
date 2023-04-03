@@ -10,7 +10,7 @@ include 'header.php';
 	<div class="card card-outline card-success">
 		<div class="card-header">
 			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./main.php?page=new_user"><i class="fa fa-plus"></i> Add New User</a>
+				<a class="btn btn-block btn-sm btn-default btn-flat " href="./main.php?page=new_user"><i class="fa fa-plus"></i> Add New User</a>
 			</div>
 		</div>
 		<div class="card-body">
@@ -43,7 +43,7 @@ include 'header.php';
 		                    	<button type="button" class="btn btn-info btn-flat view_user" data-id="<?php echo $row['id'] ?>">
 		                          <i class="fas fa-eye"></i>
 		                        </button>
-		                        <a href="main.php?page=edit_user&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat ">
+		                        <a style="background-color: orangered; color:aliceblue;"   href="main.php?page=edit_user&id=<?php echo $row['id'] ?>" class="btn  btn-flat ">
 		                          <i class="fas fa-edit"></i>
 		                        </a>
 		                        <button type="button" class="btn btn-danger btn-flat delete_user" data-id="<?php echo $row['id'] ?>">

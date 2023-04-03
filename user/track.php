@@ -1,13 +1,13 @@
 <?php include '../db_connect.php' ?>
-<div class="col-lg-12">
-	<div class="card card-outline card-primary">
+<div  class="col-lg-12">
+	<div  class="card  card-primary">
 		<div class="card-body">
 			<div class="d-flex w-100 px-1 py-2 justify-content-center align-items-center">
 				<label for="">Enter Tracking Number</label>
 				<div class="input-group col-sm-5">
                     <input type="search" id="ref_no" class="form-control form-control-sm" placeholder="Type the tracking number here">
                     <div class="input-group-append">
-                        <button type="button" id="track-btn" class="btn btn-sm btn-primary btn-gradient-primary">
+                        <button style="background-color: orangered; color:aliceblue;"  type="button" id="track-btn" class="btn btn-sm  ">
                             <i class="fa fa-search"></i>
                         </button>
                     </div>
@@ -29,7 +29,7 @@
 	    <div class="timeline-item">
 	      <!-- <span class="time"><i class="fas fa-clock"></i> <span class="dtime">12:05</span></span> -->
 	      <div class="timeline-body">
-	      	asdasd
+	      
 	      </div>
 	    </div>
 	  </div>

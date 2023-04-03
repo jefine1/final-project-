@@ -90,6 +90,18 @@ $type=$row['type'];
 		  $result=$conn->query($sql2);
 		
 		}
+        else if($row["type"]=="4")
+	    {
+		   
+		  
+		   $_SESSION['name'] = $row["name"];
+		   $_SESSION['count'] =$cnt;
+		  header('Location:branch/staff_index.php');
+	     
+		  $sql2="INSERT INTO tbl_history VALUES('','$user','$type','Login', NOW())";
+		  $result=$conn->query($sql2);
+		
+		}
 	  else if($row["type"]=="3")
 	     {
 	         if($row["status"]==1)

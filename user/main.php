@@ -38,7 +38,7 @@
           </div><!-- /.col -->
 
         </div><!-- /.row -->
-            <hr class="border-primary">
+            <hr border-primary >
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
@@ -83,7 +83,7 @@
       <div class="modal-body">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
+        <button style="background-color: orangered;" type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
       </div>
       </div>

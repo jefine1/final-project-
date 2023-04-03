@@ -228,7 +228,7 @@ window.onload = function () {
         })
 }
 </script><div class="col-md-12 text-right mb-3">
-                <button class="btn btn-primary" id="download"> download pdf</button>
+                <button style="background-color: orangered;" class="btn btn-primary" id="download"> Download pdf</button>
             </div><div id="invoice"> 
      <b><h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Feedback Analysis</h5></b>
       <?php

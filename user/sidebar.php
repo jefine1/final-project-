@@ -1,8 +1,8 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside style="background-color: black;" class="main-sidebar sidebar-dark-primary elevation-4">
 <div class="dropdown">
-   <a href="" class="brand-link">
+   <a style="background-color: black;"   href="" class="brand-link">
     
-    <h3 class="text-center p-0 m-0"><b>USER</b></h3>
+    <h3 class="text-center p-0 m-0"><b> <?php echo $_SESSION['name'] ?>!</b></h3>
 
 
 </a>
@@ -12,7 +12,7 @@
   <nav class="mt-2">
     <ul class="nav nav-pills nav-sidebar flex-column nav-flat" data-widget="treeview" role="menu" data-accordion="false">
       <li class="nav-item dropdown">
-        <a href="./main.php?page=home" class="nav-link nav-home">
+        <a href="./main.php?page=home" class="nav-link ">
           <i class="nav-icon fas fa-tachometer-alt"></i>
           <p>
             Dashboard
@@ -22,7 +22,7 @@
    
     
       <li class="nav-item">
-        <a href="main.php?page=home" class="nav-link nav-edit_parcel">
+        <a href="main.php?page=home" class="nav-link  ">
           <i class="nav-icon fas fa-boxes"></i>
           <p>
             Parcels
@@ -31,13 +31,13 @@
         </a>
         <ul class="nav nav-treeview">
           <li class="nav-item">
-            <a href="main.php?page=new_parcel" class="nav-link nav-new_parcel tree-item">
+            <a href="main.php?page=new_parcel" class="nav-link  tree-item">
               <i class="fas fa-angle-right nav-icon"></i>
               <p>Add New</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="./main.php?page=parcel_list" class="nav-link nav-parcel_list nav-sall tree-item">
+            <a href="./main.php?page=parcel_list" class="nav-link  nav-sall tree-item">
               <i class="fas fa-angle-right nav-icon"></i>
               <p>List All</p>
             </a>
@@ -57,7 +57,7 @@
       </li>
      
        <li class="nav-item dropdown">
-        <a href="./main.php?page=track" class="nav-link nav-track">
+        <a href="./main.php?page=track" class="nav-link ">
           <i class="nav-icon fas fa-search"></i>
           <p>
             Track Parcel

@@ -6,7 +6,7 @@ include 'session.php'; } ?>
   }
 </style>
 <div class="col-lg-12">
-	<div class="card card-outline card-primary">
+	<div class="card card-outline  ">
 		<div class="card-body">
 			<form action="" id="manage-parcel" method="POST">
         <input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
@@ -16,7 +16,7 @@ include 'session.php'; } ?>
               <b>Sender Information</b>
               <div class="form-group">
                 <label for="" class="control-label">Name</label>
-                <input type="text" name="sender_name" id="" class="form-control form-control-sm" value="<?php echo isset($sender_name) ? $sender_name : '' ?>" required>
+                <input type="text" name="sender_name" id="" class="form-control form-control-sm" value="<?php echo isset($sender_name) ? $sender_name : '' ?>" required pattern="[A-Za-z\s]{3,}">
               </div>
               <div class="form-group">
                 <label for="" class="control-label">Address</label>
@@ -24,14 +24,14 @@ include 'session.php'; } ?>
               </div>
               <div class="form-group">
                 <label for="" class="control-label">Contact #</label>
-                <input type="text" name="sender_contact" id="" class="form-control form-control-sm" value="<?php echo isset($sender_contact) ? $sender_contact : '' ?>" required>
+                <input type="text" name="sender_contact" id="" class="form-control form-control-sm" value="<?php echo isset($sender_contact) ? $sender_contact : '' ?>" required maxlength="10" pattern="[0-9]{10}">
               </div>
           </div>
           <div class="col-md-6">
               <b>Recipient Information</b>
               <div class="form-group">
                 <label for="" class="control-label">Name</label>
-                <input type="text" name="recipient_name" id="" class="form-control form-control-sm" value="<?php echo isset($recipient_name) ? $recipient_name : '' ?>" required>
+                <input type="text" name="recipient_name" id="" class="form-control form-control-sm" value="<?php echo isset($recipient_name) ? $recipient_name : '' ?>" required pattern="[A-Za-z\s]{3,}">
               </div>
               <div class="form-group">
                 <label for="" class="control-label">Address</label>
@@ -39,7 +39,7 @@ include 'session.php'; } ?>
               </div>
               <div class="form-group">
                 <label for="" class="control-label">Contact #</label>
-                <input type="text" name="recipient_contact" id="" class="form-control form-control-sm" value="<?php echo isset($recipient_contact) ? $recipient_contact : '' ?>" required>
+                <input type="text" name="recipient_contact" id="" class="form-control form-control-sm" value="<?php echo isset($recipient_contact) ? $recipient_contact : '' ?>" required maxlength="10" pattern="[0-9]{10}">
               </div>
           </div>
         </div>
@@ -48,8 +48,8 @@ include 'session.php'; } ?>
           <div class="col-md-6">
             <div class="form-group">
               <label for="dtype">Type</label>
-              <input type="checkbox" name="type" id="dtype" <?php echo isset($type) && $type == 1 ? 'checked' : '' ?> data-bootstrap-switch data-toggle="toggle" data-on="Deliver" data-off="Pickup" class="switch-toggle status_chk" data-size="xs" data-offstyle="info" data-width="5rem" value="1">
-              <small>Deliver = Deliver to Recipient Address</small>
+              <input  type="checkbox" name="type" id="dtype" <?php echo isset($type) && $type == 1 ? 'checked' : '' ?> data-bootstrap-switch data-toggle="toggle" data-on="Deliver" data-off="Pickup" class="switch-toggle status_chk" data-size="xs" data-offstyle="info" data-width="5rem" value="1">
+              <small >Deliver = Deliver to Recipient Address</small>
               <small>, Pickup = Pickup to nearest Branch</small>
             </div>
           </div>
@@ -89,10 +89,10 @@ include 'session.php'; } ?>
         <table class="table table-bordered" id="parcel-items">
           <thead>
             <tr>
-              <th>Weight</th>
-              <th>Height</th>
-              <th>Length</th>
-              <th>Width</th>
+              <th>Weight(in kg)</th>
+              <th>Height(in cm)</th>
+              <th>Length(in cm)</th>
+              <th>Width(in cm)</th>
               <th>Price</th>
               <?php if(!isset($id)): ?>
               <th></th>
@@ -101,11 +101,11 @@ include 'session.php'; } ?>
           </thead>
           <tbody>
             <tr>
-              <td><input type="text" name='weight[]' value="<?php echo isset($weight) ? $weight :'' ?>" required></td>
-              <td><input type="text" name='height[]' value="<?php echo isset($height) ? $height :'' ?>" required></td>
-              <td><input type="text" name='length[]' value="<?php echo isset($length) ? $length :'' ?>" required></td>
-              <td><input type="text" name='width[]' value="<?php echo isset($width) ? $width :'' ?>" required></td>
-              <td><input type="text" id="price" class="text-right number" name='price[]' value="<?php echo isset($price) ? $price :'' ?>" readonly></td>
+              <td><input type="text" name='weight[]' value="<?php echo isset($weight) ? $weight :'' ?>" required pattern="[0-9]+(\.[0-9]{1,2})?"></td>
+              <td><input type="text" name='height[]' value="<?php echo isset($height) ? $height :'' ?>" required pattern="[0-9]+(\.[0-9]{1,2})?"></td>
+              <td><input type="text" name='length[]' value="<?php echo isset($length) ? $length :'' ?>" required pattern="[0-9]+(\.[0-9]{1,2})?"></td>
+              <td><input type="text" name='width[]' value="<?php echo isset($width) ? $width :'' ?>" required pattern="[0-9]+(\.[0-9]{1,2})?"></td>
+              <td><input type="text" id="price" class="text-right number" name='price[]' value="<?php echo isset($price) ? $price :'' ?>" disabled></td>
               <?php if(!isset($id)): ?>
               <td><button class="btn btn-sm btn-danger" type="button" onchange="$(this).closest('tr').remove() && calc()"><i class="fa fa-times"></i></button></td>
               <?php endif; ?>
@@ -129,8 +129,8 @@ include 'session.php'; } ?>
       </form>
   	</div>
   	<div class="card-footer border-top border-info">
-  		<div class="d-flex w-100 justify-content-center align-items-center">
-  			<button class="btn btn-flat  bg-gradient-primary mx-2" form="manage-parcel">Pay and submit</button>
+  		<div  class="d-flex w-100 justify-content-center align-items-center">
+  			<button style="background-color: orangered; color:aliceblue; "   class="btn btn-flat   mx-2" form="manage-parcel">Pay and submit</button>
   			<a class="btn btn-flat bg-gradient-secondary mx-2" href="./main.php?page=parcel_list">Cancel</a>
   		</div>
   	</div>

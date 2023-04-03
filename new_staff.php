@@ -5,7 +5,7 @@
   }
 </style>
 <div class="col-lg-12">
-	<div class="card card-outline card-primary">
+	<div class="card card-outline ">
 		<div class="card-body">
 			<form action="" id="manage-staff">
         <input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
@@ -62,7 +62,7 @@
   	</div>
   	<div class="card-footer border-top border-info">
   		<div class="d-flex w-100 justify-content-center align-items-center">
-  			<button class="btn btn-flat  bg-gradient-primary mx-2" form="manage-staff">Save</button>
+  			<button style="background-color: orangered; color:aliceblue;" class="btn btn-flat   mx-2" form="manage-staff">Save</button>
   			<a class="btn btn-flat bg-gradient-secondary mx-2" href="./main.php?page=staff_list">Cancel</a>
   		</div>
   	</div>

@@ -1,6 +1,6 @@
 <?php include'db_connect.php' ?>
 <div class="col-lg-12">
-	<div class="card card-outline card-primary">
+	<div class="card card-outline ">
 		<div class="card-header">
 			<div class="card-tools">
 				<a class="btn btn-block btn-sm btn-default btn-flat border-primary " href="./main.php?page=new_staff"><i class="fa fa-plus"></i> Add New</a>
@@ -37,7 +37,7 @@
 						<td><b><?php echo ucwords($row['baddress']) ?></b></td>
 						<td class="text-center">
 		                    <div class="btn-group">
-		                        <a href="main.php?page=edit_staff&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat ">
+		                        <a style="background-color: orangered; color:aliceblue;"   href="main.php?page=edit_staff&id=<?php echo $row['id'] ?>" class="btn  btn-flat ">
 		                          <i class="fas fa-edit"></i>
 		                        </a>
 		                        <button type="button" class="btn btn-danger btn-flat delete_staff" data-id="<?php echo $row['id'] ?>">
